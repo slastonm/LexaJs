@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="mb-3">
+                    <label for="checkNumber" class="form-label">Check number value</label>
+                    <input type="text" class="form-control" id="checkNumber" placeholder="Nuber">
+                </div>
+                <button id="evenCheck" type="button" class="btn btn-primary">This is pair value?</button>
+            </div>
+            <div class="col">
+                <div class="triangle mb-5">
+                    <span class="sideAname">A</span>
+                    <span class="sideBname">B</span>
+                </div>
+                <div class="mb-3">
+                    <label for="sideA" class="form-label">Side A > B</label>
+                    <input type="text" class="form-control" id="sideA" placeholder="Side A">
+                </div>
+                <div class="mb-3">
+                    <label for="sideB" class="form-label">Side B < A</label>
+                    <input type="text" class="form-control" id="sideB" placeholder="Side B">
+                </div>
+                <button id="calculateArea" type="button" class="btn btn-primary">Calculate triangle area</button>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <label for="planetName" class="form-label">Planet name</label>
+                    <input type="text" class="form-control" id="planetName" placeholder="Planet name">
+                </div>
+                <button id="getPlanetNumber" type="button" class="btn btn-primary">Planete number</button>
+            </div>          
+        </div>
+
+    </div>
+
+</body>
+</html>
